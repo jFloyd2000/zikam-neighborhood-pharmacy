@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* standard styles for paragraphs*/
 p{
   font-size: 17px;
   font-family: brandongrotesque,Arial,Verdana,sans-serif;
   font-weight: 400;
 }
+
+/** Makes Warning Banner at the top of the page
+ * WarningBanner.js
+ */
 .WarningBanner{
   background-color: #cf0000;
   width: 100%;
@@ -13,23 +18,25 @@ p{
   text-align: center;
 }
 
+/** Makes the click here look like a link
+ * WarningBanner.js
+ */
 .fakeLink{
   text-decoration: underline;
 }
 
+/** Puts the logo on the left of the navbar
+ * Navbar.js
+ */
 .TopLogo{
   display: block;
   margin: 0px auto 0px auto;
 }
 
-.WhiteBanner{
-  background: white;
-  width: 100%;
-  margin: 0 0 0 0;
-  padding: 75px 0 20px 0;
-}
-
-.blueBanner{
+/** Styles the bar on the navbar
+ * Navbar.js
+ */
+.NavBar{
   text-align: center;
   margin-bottom: 0;
   background-color: #3f8f20;
@@ -37,10 +44,16 @@ p{
   padding: 10px 10px 10px 10px;
 }
 
-.NavBar{
+/** Removes the bullets from the <ul>
+ * Navbar.js
+ */
+.NavBarList{
   list-style: none;
 }
 
+/** Styles the individual elements on navbar
+ * Navbar.js
+ */
 .NavElement{
   display: block;
   margin: 10px 10px 10px 10px;
@@ -52,14 +65,32 @@ p{
   overflow: auto;
 }
 
-.Hoverable:hover{
+/** Underlines hovered navbar elements
+ * Navbar.js
+ */
+.NavElement:hover{
   border-bottom: 2px blue solid;
 }
 
+/** Styles the logo on the navbar
+ * Navbar.js
+ */
+.navBarPhoto{
+  width: 300px;
+  height: auto;
+  float: left;
+}
+
+/** Indicates what page the user is on
+ * Navbar.js
+ */
 .selected{
   color: white;
   border-bottom: 2px blue solid;
 }
+
+/*
+    CODE UNUSED BUT HERE IF NEEDED
 
 .DropDownMenu{
   display: none;
@@ -82,92 +113,87 @@ p{
 
 .DropDownBtn:hover .DropDownMenu{
   display: block;
+}*/
+
+/** Removes the margin on the bottom
+ * Description.js
+ */
+.removeBottomMargin{
+  margin-bottom: 0;
 }
 
-.navButton{
-  padding: 10px 15px 10px 15px;
-  background-color: #00961e;
-  border-radius: 5px;
-  border: 1px blue solid;
-  color: white;
-}
-
-.DescriptionTitle{
-  text-align: center;
-  background-color: rgba(0, 0, 0, .5);
-  color: white;
-}
-
+/** Styles the description bar
+ * Description.js
+ */
 .Description{
-  background-color: rgba(0, 0, 0, .5);
+  margin-bottom: 0;
   color: white;
-}
-
-.fullDescription{
-  padding: 0 30px 0 30px;
-  margin: 0 60px 10px 60px;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 30px 0 30px 0;
   font-weight: 500;
   text-align: center;
 }
 
-.center{
-  padding: 10px 15px 10px 15px;
-  background-color: #00961e;
-  border-radius: 5px;
-  border: 1px blue solid;
-  color: white;
-  margin: auto;
-  width: 275px;
-}
-
-.navBarPhoto{
-  width: 300px;
-  height: auto;
-  float: left;
-}
-
-.card1{
+/** puts the background and sizes the 
+  * Description Card
+ * Description.js
+ */
+.DescriptionCard{
   margin: 0;
   padding-top: 200px;
-  padding-bottom: 5px;
   background-image: url('./Photos/Storefront.png');
   background-position: center;
 }
 
-.card2{
+/** Creates the banner for the App Banner
+ * AppBanner.js
+ */
+.AppBanner{
   display: flex;
   background-color: steelblue;
   margin: 0;
   padding: 0;
 }
 
-
+/** Styles the display cards
+ * SmallCard.js
+ */
 .smallCard{
   width: 200px;
   height: 275px;
   border-radius: 10px;
   margin: 0 auto 0 auto;
+  background-color: springgreen;
 }
 
+/** Adds shadow to display cards
+ * SmallCard.js
+ */
 .smallCard:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/** Styles the image on the top of the card
+ * SmallCard.js
+ */
 .cardImgHeader{
   width: 200px;
   height: 200px;
   border-radius: 10px 10px 0 0;
 }
 
+/** Styles the text on the image
+ * SmallCard.js
+ */
 .cardText{
   padding: 0 35px 0 35px;
   text-align: center;
 }
 
-.refillCard{
-  background-color: springgreen;
-}
-
+/** Styles the deck (any group of cards)
+ * BasicOperations.js
+ * Wellness.js
+ */
 .deck{
   display: flex;
   flex-wrap: wrap;
@@ -176,13 +202,19 @@ p{
   background-color: #8ea9cd;
 }
 
-.phoneImg{
+/** Styles the image on the app banner
+ * AppBanner.js
+ */
+.appImg{
   margin-left: 0;
   margin-right: auto;
   width: fit-content;
 }
 
-.phoneTxt{
+/** Styles the text on the app banner
+ * AppBanner.js
+ */
+.appTxt{
   text-align: center;
   color: white;
   padding-top: 5px;
@@ -190,17 +222,16 @@ p{
   margin: auto
 }
 
+/** Removes the bullets from the app feature list
+ * AppBanner.js
+ */
 .appList{
   list-style-type: none;
 }
 
-.deck2{
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
+/** Styles the banner for the location banner
+ * Location.js
+ */
 .LocationBanner{
   display: flex;
   background-color: steelblue;
@@ -208,6 +239,9 @@ p{
   padding: 0;
 }
 
+/** Styles the text for the location banner
+ * Location.js
+ */
 .LocationText{
   color: white;
   padding-top: 5px;
@@ -215,24 +249,28 @@ p{
   margin: 0;
 }
 
-.mapA{
+/** Styles the map for the location banner
+ * Location.js
+ */
+.map{
   margin-left: 0;
   margin-right: 0;
   width: fit-content;
 }
 
-.mapB{
-  margin-right: 0;
-  margin-left: 0;
-  width: fit-content;
-}
-
+/** Keeps the text and the map next to each other
+  * no matter the size of the window
+ *Location.js
+ */
 .locationBlock{
   display: flex;
   margin: auto;
   width: fit-content;
 }
 
+/** Styles the footer bar
+ * footer.js
+ */
 .footer{
   padding-top: 50px;
   padding-bottom: 50px;

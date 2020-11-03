@@ -1,10 +1,16 @@
 import React from 'react';
 import ZikamLogo from '../Photos/ZikamLogo.png'
 
-function BlueBanner(props){
+/** Navbar.js
+ * 
+ * Allows user to navigate to common pages in the site
+ * Also houses the logo so the site is easily reconizable
+ */
+
+function Navbar(props){
     return(
-        <div className='blueBanner'>
-            <ul className='NavBar'>
+        <div className='NavBar'>
+            <ul className='NavBarList'>
                 <li><img src={ZikamLogo} className="navBarPhoto" /></li>
                 <li className="NavElement selected">Home</li>
                 <li className="NavElement Hoverable">Services</li>
@@ -16,4 +22,4 @@ function BlueBanner(props){
     )
 }
 
-export default BlueBanner 
+export default Navbar

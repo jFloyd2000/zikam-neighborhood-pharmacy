@@ -4,6 +4,12 @@ import RefillImg from '../Photos/MedicneBottle.jpg'
 import transferImg from '../Photos/Transfer.png'
 import CovidImg from '../Photos/Covid.jpg'
 
+/** BasicOperations.js
+ * 
+ * Gives users acess to common operations
+ * using the SmallCard class
+ */
+
 function Deck(){
     return(
         <div className='deck'>

@@ -7,11 +7,17 @@ import BloodPressImg from '../Photos/BloodPressure.jpeg'
 import Cholesterol from '../Photos/cheerios.jpeg'
 import Inhaler from '../Photos/inhaler.jpg'
 
+/** Wellness.js
+ * 
+ * Provides links to information about 
+ * the wellness classes in the form of SmallCard
+ */
+
 function DeckB(){
     return(
         <div>
             <h1>Wellness Classes</h1>
-            <div className='deck2'>
+            <div className='deck'>
                 <SmallCard img={DiabetesImg} text="Diabetes" />
                 <SmallCard img={SmokingImg} text="Quit Smoking" />
                 <SmallCard img={ScaleImg} text="Weight Loss" />
