@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* standard styles for paragraphs*/
 p{
   font-size: 17px;
@@ -127,6 +129,9 @@ p{
  */
 .removeBottomMargin{
   margin-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  padding: 0 20px 0 20px;
 }
 
 /** Styles the description bar
@@ -172,9 +177,9 @@ p{
  * AppBanner.js
  */
 .appOverlay{
-  background: rgba(0, 0, 0, .5);
-  width: 100%;
-  padding: 200px 0 0 0;
+  background: rgba(0, 0, 0, .25);
+  width: 50%;
+  padding: 100px 0 0 0;
 }
 
 /** Styles the display cards
@@ -184,7 +189,7 @@ p{
   width: 200px;
   height: 275px;
   border-radius: 20px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 25px auto;
   background-color: springgreen;
 }
 
@@ -237,6 +242,8 @@ p{
  * AppBanner.js
  */
 .appTxt{
+  font-family: 'Itim', cursive;
+  font-size: 1.5em;
   color: white;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -301,11 +308,31 @@ p{
     flex-direction: column;
   }
 }
+@media (max-width: 600px) {
 /** Hides the map to save space
  * Location.js
  */
-@media (max-width: 600px) {
   .map{
     display: none;
+  }
+/** makes the text fullscreen on mobile
+ * AppBanner.js*/
+ .appOverlay{
+   width: 100%;
+ }
+
+ /** Makes small cards smaller to fit mobile
+  * AppBanner.js
+  */
+  .smallCard{
+    width: 100px;
+    height: 175px;
+  }
+  .cardImgHeader{
+    width: 100px;
+    height: 100px;
+  }
+  .cardText{
+    padding: 0 0 0 0;
   }
 }
