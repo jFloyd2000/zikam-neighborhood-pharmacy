@@ -1,5 +1,4 @@
 import React from 'react';
-import ZikamLogo from '../Photos/ZikamLogo.png'
 
 /** Navbar.js
  * 
@@ -11,12 +10,11 @@ function Navbar(props){
     return(
         <div className='NavBar'>
             <ul className='NavBarList'>
-                <li><img src={ZikamLogo} className="navBarPhoto" /></li>
-                <li className="NavElement selected">Home</li>
-                <li className="NavElement Hoverable">Services</li>
-                <li className="NavElement Hoverable">Health News</li>
-                <li className="NavElement Hoverable">RX Coupons</li>
                 <li className="NavElement Hoverable">Reviews</li>
+                <li className="NavElement Hoverable">RX Coupons</li>
+                <li className="NavElement Hoverable">Health News</li>
+                <li className="NavElement Hoverable">Services</li>
+                <li className="NavElement selected">Home</li>
             </ul>
         </div>
     )

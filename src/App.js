@@ -21,8 +21,6 @@ function App() {
     <div>
       {/* Warning Banner announces site warnings */}
       <WarningBanner />
-      {/* Navbar allows user to navigate the site*/}
-      <Navbar />
       {/* Description gives breif company description*/}
       <Description />
       {/* Basic Operations allows user to perform common operations */}

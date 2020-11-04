@@ -39,7 +39,6 @@ p{
 .NavBar{
   text-align: center;
   margin-bottom: 0;
-  background-color: #3f8f20;
   overflow: auto;
   padding: 10px 10px 10px 10px;
 }
@@ -56,11 +55,11 @@ p{
  */
 .NavElement{
   display: block;
-  margin: 10px 10px 10px 10px;
-  padding-bottom: 5px;
+  padding: 10px 10px 10px 10px;
+  margin: 0 5px 0 5px;
   font-size: .9em;
   font-family: 'Montserrat', sans-serif;
-  color: black;
+  color: #a6ccff;
   float: right;
   overflow: auto;
 }
@@ -79,6 +78,14 @@ p{
   width: 300px;
   height: auto;
   float: left;
+}
+
+/** Makes the background darker so navbar is visible
+ * Description.js*/
+.landingOverlay{
+  margin: 0;
+  padding-bottom: 200px;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 /** Indicates what page the user is on
@@ -140,9 +147,11 @@ p{
  */
 .DescriptionCard{
   margin: 0;
-  padding-top: 200px;
   background-image: url('./Photos/Storefront.png');
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /** Creates the banner for the App Banner
@@ -150,9 +159,22 @@ p{
  */
 .AppBanner{
   display: flex;
-  background-color: steelblue;
+  background: url("https://static.spacecrafted.com/b615cd82131d4de6aa5375843c6bc994/i/ad51f5bdd4ed445d9bfe651020facb5f/1/GCuCv726gZycFxatsKkTit/dreamstime_xl_47058826%20%25281%2529.jpg?dpr=2");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
+}
+
+/** makes the background darker so text can be seen
+ * AppBanner.js
+ */
+.appOverlay{
+  background: rgba(0, 0, 0, .5);
+  width: 100%;
+  padding: 200px 0 0 0;
 }
 
 /** Styles the display cards
@@ -161,7 +183,7 @@ p{
 .smallCard{
   width: 200px;
   height: 275px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 0 auto 0 auto;
   background-color: springgreen;
 }
@@ -179,7 +201,7 @@ p{
 .cardImgHeader{
   width: 200px;
   height: 200px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 20px 20px 0 0;
 }
 
 /** Styles the text on the image
@@ -215,18 +237,10 @@ p{
  * AppBanner.js
  */
 .appTxt{
-  text-align: center;
   color: white;
   padding-top: 5px;
   padding-bottom: 5px;
   margin: auto
-}
-
-/** Removes the bullets from the app feature list
- * AppBanner.js
- */
-.appList{
-  list-style-type: none;
 }
 
 /** Styles the banner for the location banner
@@ -266,6 +280,7 @@ p{
   display: flex;
   margin: auto;
   width: fit-content;
+  text-align: center;
 }
 
 /** Styles the footer bar
@@ -276,4 +291,21 @@ p{
   padding-bottom: 50px;
   text-align: center;
   background-color: springgreen;
+}
+
+/** Puts location in collum to save space
+ * Location.js
+ */
+@media (max-width: 1000px) {
+  .LocationBanner{
+    flex-direction: column;
+  }
+}
+/** Hides the map to save space
+ * Location.js
+ */
+@media (max-width: 600px) {
+  .map{
+    display: none;
+  }
 }

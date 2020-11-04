@@ -9,9 +9,9 @@ import PhoneImg from '../Photos/Phone.png'
 function AppBanner(){
     return(
         <div className='AppBanner'>
-            <img src={PhoneImg} className='appImg'/>
+            <div className='appOverlay'>
             <p className='appTxt'>Download our free mobile app from the App Store and Google Play Store to get<br/>
-            <ul className='appList'>
+            <ul>
                 <li>Prescription Refills</li>
                 <li>Medication Reminders</li>
                 <li>Refill Reminders</li>
@@ -19,6 +19,7 @@ function AppBanner(){
                 <li>Medication Information</li>
                 <li>And Much More</li>
             </ul></p>
+            </div>
         </div>
     )
 }

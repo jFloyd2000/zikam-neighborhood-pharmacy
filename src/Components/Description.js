@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './Navbar'
 
 /** Description.js
  * 
@@ -9,6 +10,9 @@ import React from 'react';
 function Description(){
     return(
         <div className='DescriptionCard'>
+            <div className='landingOverlay'>
+                <Navbar />
+            </div>
             <div className='Description'>
                 <h1>Your Local Healthcare Family</h1>
                 <p className='removeBottomMargin'>Welcome to Zikam Neighborhood Pharmacy! We've been serving the
