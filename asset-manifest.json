@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/zikam-neighborhood-pharmacy/static/css/main.2bd5f4ff.chunk.css",
-    "main.js": "/zikam-neighborhood-pharmacy/static/js/main.6e7b6b78.chunk.js",
-    "main.js.map": "/zikam-neighborhood-pharmacy/static/js/main.6e7b6b78.chunk.js.map",
-    "runtime-main.js": "/zikam-neighborhood-pharmacy/static/js/runtime-main.502951af.js",
-    "runtime-main.js.map": "/zikam-neighborhood-pharmacy/static/js/runtime-main.502951af.js.map",
-    "static/js/2.fd1bf516.chunk.js": "/zikam-neighborhood-pharmacy/static/js/2.fd1bf516.chunk.js",
-    "static/js/2.fd1bf516.chunk.js.map": "/zikam-neighborhood-pharmacy/static/js/2.fd1bf516.chunk.js.map",
-    "static/js/3.676e3544.chunk.js": "/zikam-neighborhood-pharmacy/static/js/3.676e3544.chunk.js",
-    "static/js/3.676e3544.chunk.js.map": "/zikam-neighborhood-pharmacy/static/js/3.676e3544.chunk.js.map",
+    "main.css": "/zikam-neighborhood-pharmacy/static/css/main.5f330d4c.chunk.css",
+    "main.js": "/zikam-neighborhood-pharmacy/static/js/main.b796d17f.chunk.js",
+    "main.js.map": "/zikam-neighborhood-pharmacy/static/js/main.b796d17f.chunk.js.map",
+    "runtime-main.js": "/zikam-neighborhood-pharmacy/static/js/runtime-main.a58d1fb2.js",
+    "runtime-main.js.map": "/zikam-neighborhood-pharmacy/static/js/runtime-main.a58d1fb2.js.map",
+    "static/js/2.07ec5b57.chunk.js": "/zikam-neighborhood-pharmacy/static/js/2.07ec5b57.chunk.js",
+    "static/js/2.07ec5b57.chunk.js.map": "/zikam-neighborhood-pharmacy/static/js/2.07ec5b57.chunk.js.map",
+    "static/js/3.ac795d2b.chunk.js": "/zikam-neighborhood-pharmacy/static/js/3.ac795d2b.chunk.js",
+    "static/js/3.ac795d2b.chunk.js.map": "/zikam-neighborhood-pharmacy/static/js/3.ac795d2b.chunk.js.map",
     "index.html": "/zikam-neighborhood-pharmacy/index.html",
-    "static/css/main.2bd5f4ff.chunk.css.map": "/zikam-neighborhood-pharmacy/static/css/main.2bd5f4ff.chunk.css.map",
-    "static/js/2.fd1bf516.chunk.js.LICENSE.txt": "/zikam-neighborhood-pharmacy/static/js/2.fd1bf516.chunk.js.LICENSE.txt",
+    "static/css/main.5f330d4c.chunk.css.map": "/zikam-neighborhood-pharmacy/static/css/main.5f330d4c.chunk.css.map",
+    "static/js/2.07ec5b57.chunk.js.LICENSE.txt": "/zikam-neighborhood-pharmacy/static/js/2.07ec5b57.chunk.js.LICENSE.txt",
     "static/media/Covid.898032b0.jpg": "/zikam-neighborhood-pharmacy/static/media/Covid.898032b0.jpg",
     "static/media/MedicneBottle.32e00a5d.jpg": "/zikam-neighborhood-pharmacy/static/media/MedicneBottle.32e00a5d.jpg",
     "static/media/Scale.7d7801d6.jpeg": "/zikam-neighborhood-pharmacy/static/media/Scale.7d7801d6.jpeg",
     "static/media/App.css": "/zikam-neighborhood-pharmacy/static/media/Storefront.334a7b04.png",
     "static/media/cheerios.1e46864f.jpeg": "/zikam-neighborhood-pharmacy/static/media/cheerios.1e46864f.jpeg",
     "static/media/cigarette.c7188964.jpg": "/zikam-neighborhood-pharmacy/static/media/cigarette.c7188964.jpg",
-    "static/media/inhaler.af79573b.jpg": "/zikam-neighborhood-pharmacy/static/media/inhaler.af79573b.jpg"
+    "static/media/inhaler.af79573b.jpg": "/zikam-neighborhood-pharmacy/static/media/inhaler.af79573b.jpg",
+    "static/media/medicare.d1908e64.jpg": "/zikam-neighborhood-pharmacy/static/media/medicare.d1908e64.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.502951af.js",
-    "static/js/2.fd1bf516.chunk.js",
-    "static/css/main.2bd5f4ff.chunk.css",
-    "static/js/main.6e7b6b78.chunk.js"
+    "static/js/runtime-main.a58d1fb2.js",
+    "static/js/2.07ec5b57.chunk.js",
+    "static/css/main.5f330d4c.chunk.css",
+    "static/js/main.b796d17f.chunk.js"
   ]
 }
