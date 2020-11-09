@@ -1,0 +1,30 @@
+.star{
+    color: red;
+}
+
+.basicEle{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 0 0 0 0;
+}
+
+.phone{
+    width: 25px;
+    margin: 0 3px 0 3px;
+}
+
+.message{
+    width: 250px;
+    height: 125px;
+}
+
+.btn{
+    padding: 5px 10px 5px 10px;
+    background: springgreen;
+    border-radius: 10%;
+    margin-top: 3px;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.flex{
+    display: flex;
+}
+
+.eHealthParagraph{
+  font-family: 'Poppins', sans-serif;
+}
+
+.eHealthParagraph p {
+  font-size: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+}
+
+.formBox{
+    width: 3000px;
+}
+
+.left{
+    float: left;
+}
+
+.image{
+    width: auto;
+    height: auto;
+}
+
+.basicEle{
+
+}
+
+.headingA{
+    margin-bottom: 0px;
+}
+
+.headingB{
+    margin-top: 0px;
+}
+
+.medicareImg{
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+}
+
+.formEle{
+    padding-right: 25px;
+}
+
+@media (max-width: 1200px){
+    .flex{
+        flex-direction: column;
+    }
+}

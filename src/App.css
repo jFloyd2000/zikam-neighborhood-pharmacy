@@ -39,10 +39,13 @@ p{
  * Navbar.js
  */
 .NavBar{
-  text-align: center;
   margin-bottom: 0;
   overflow: auto;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 0 10px 0;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 /** Removes the bullets from the <ul>
@@ -50,6 +53,7 @@ p{
  */
 .NavBarList{
   list-style: none;
+  padding: 0 0 0 0;
 }
 
 /** Styles the individual elements on navbar
@@ -57,20 +61,27 @@ p{
  */
 .NavElement{
   display: block;
-  padding: 10px 10px 10px 10px;
-  margin: 0 5px 0 5px;
+  padding: 10px 5px 10px 5px;
   font-size: .9em;
   font-family: 'Montserrat', sans-serif;
   color: #a6ccff;
-  float: right;
+  background-color: blue;
   overflow: auto;
+}
+
+.navButton{
+  background: blue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 2px;
 }
 
 /** Underlines hovered navbar elements
  * Navbar.js
  */
 .NavElement:hover{
-  border-bottom: 2px blue solid;
+  color: white
 }
 
 /** Styles the logo on the navbar
@@ -95,7 +106,6 @@ p{
  */
 .selected{
   color: white;
-  border-bottom: 2px blue solid;
 }
 
 /*
@@ -298,6 +308,14 @@ p{
   padding-bottom: 50px;
   text-align: center;
   background-color: springgreen;
+}
+
+.noUnderline{
+  text-decoration: none;
+}
+
+.whiteTxt{
+  color: white;
 }
 
 /** Puts location in collum to save space

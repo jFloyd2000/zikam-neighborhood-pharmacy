@@ -11,7 +11,6 @@ function Description(){
     return(
         <div className='DescriptionCard'>
             <div className='landingOverlay'>
-                <Navbar />
             </div>
             <div className='Description'>
                 <h1>Your Local Healthcare Family</h1>
